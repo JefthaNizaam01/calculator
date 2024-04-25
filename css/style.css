@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.screen{
+    background:white;
+}
+
+.calculator {
+ background: darkkhaki;
+ padding: 25px;
+ border-radius: 15px;
+}
+
+.line5{
+    padding-right: 65px;
+}
+
+.calculator form input{
+width: 75px;
+height: 75px;
+border-radius: 15px;
+outline: 0;
+background: transparent;
+border: 0;
+font-size: 35px;
+color: white;
+}
